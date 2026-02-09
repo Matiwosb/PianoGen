@@ -151,7 +151,7 @@ def process_midi_seq(all_midis=None, datadir='data', n=10000, maxlen=50):
     :return: numpy array of shape [n', max_len] for the segments. n' tries to be close to n but may not be exactly n.
     '''
     if all_midis is None:
-        all_midis = glob.glob(datadir+'/maestro-v1.0.0/**/*.midi')
+        all_midis = glob.glob(datadir=+'/Users/matiwosbirbo/PianoGen/maestro-v1.0.0 2/*.midi')
         random.seed()    # for debug purpose, you can pass a fix number when calling seed()
         random.shuffle(all_midis)
 

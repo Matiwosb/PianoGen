@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "PianoGen",
+			"path": "."
+		},
+		{
+			"name": "maestro-v1.0.0",
+			"path": "../Downloads/maestro-v1.0.0"
+		}
+	],
+	"settings": {}
+}
